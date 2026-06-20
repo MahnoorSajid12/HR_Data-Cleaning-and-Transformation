@@ -41,6 +41,7 @@ Documentation
 
 What I Learned
 Through this project, I gained practical experience using Excel and Power Query to solve real-world data quality issues. I learned how small inconsistencies in data can affect reporting accuracy and how structured cleaning processes improve the reliability of business data.
+
 Author: Mahnoor Sajid
 Project Type: Excel & Power Query Data Cleaning Project
 Dataset: HR Employee Records (1,000 rows)
