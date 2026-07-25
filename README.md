@@ -1,47 +1,30 @@
-HR Data Cleaning & Transformation Project
-Overview
-This project focuses on cleaning and transforming a Human Resources (HR) dataset containing 1,000 employee records. The dataset was intentionally created with common data quality issues such as duplicate records, missing values, inconsistent formatting, department name variations, mixed date formats, extra spaces, hidden characters, and non-standard contact numbers.
-The goal of this project was to improve data quality and convert the raw dataset into a structured and reliable format suitable for reporting and future analysis.
+# HR Data Cleaning & Processing Project
 
-Tools Used
-Microsoft Excel
-Power Query
+## 📌 Project Overview
+This repository contains a comprehensive Human Resources (HR) data cleaning project. The entire workflow—from the messy raw data to the final processed results—is contained within a single, organized Excel workbook. This project demonstrates data hygiene, error correction, and structural auditing required for accurate HR reporting.
 
-Data Cleaning Tasks Performed
-Split full names into First Name and Last Name
-Standardized name formatting
-Removed extra spaces and hidden characters
-Corrected department abbreviations and spelling inconsistencies
-Standardized contact number formats
-Fixed mixed date formats
-Identified and handled missing values
-Removed duplicate records
-Converted inconsistent data types
-Extracted unique values for validation
+---
 
-Project Structure
-Raw_Data – Original dataset containing data quality issues
-Cleaned_Data – Final cleaned and standardized dataset
-Cleaning_Log – Summary of issues identified and cleaning methods used
-Project_Summary – Overview of the project, objectives, and outcomes
-Results
-Original Records: 1,000
-Final Records: 970
-Duplicate Records Removed: 30
-The final dataset is cleaner, more consistent, and ready for business reporting and analysis.
+## 📊 Workbook Structure
+The uploaded Excel file contains four dedicated sheets organized in the following order:
+1. **HR raw data**: The original, unaltered HR dataset containing errors, duplicates, and missing values.
+2. **HR Processed data**: The finalized, fully cleaned, and standardized HR dataset ready for analysis.
+3. **cleaning log**: A step-by-step audit trail documenting every single change made during the process.
+4. **project summary**: High-level metrics and insights derived from the cleaned data.
 
-Skills Demonstrated
-Data Cleaning
-Data Transformation
-Power Query
-Excel Functions
-Data Quality Improvement
-Data Standardization
-Documentation
+---
 
-What I Learned
-Through this project, I gained practical experience using Excel and Power Query to solve real-world data quality issues. I learned how small inconsistencies in data can affect reporting accuracy and how structured cleaning processes improve the reliability of business data.
+## 🛠️ Data Cleaning Steps Implemented
+During the data scrubbing phase, the following actions were taken to ensure data integrity:
+* **Duplicate Removal**: Identified and deleted duplicate employee profiles using unique Employee IDs.
+* **Missing Value Imputation**: Handled null values in critical columns (e.g., Departments, Hire Dates).
+* **Format Standardization**: Corrected inconsistent formatting across phone numbers, dates, and currency values.
+* **Text Standardization**: Standardized capitalization and fixed typos in employee names and job titles.
+* **Outlier & Error Auditing**: Flagged and corrected logical errors (e.g., negative salaries or impossible hire dates).
 
-Author: Mahnoor Sajid
-Project Type: Excel & Power Query Data Cleaning Project
-Dataset: HR Employee Records (1,000 rows)
+---
+
+## 📈 Key Accomplishments
+* Successfully transformed a chaotic raw HR dataset into an analysis-ready asset.
+* Created a transparent **cleaning log** sheet to maintain a clear audit trail for stakeholders.
+* Developed a **project summary** sheet to immediately surface key HR metrics like total headcount and average tenure.
